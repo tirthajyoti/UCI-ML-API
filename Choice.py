@@ -88,14 +88,14 @@ def execute_choice():
 			local_database=str(input("If you have saved a local database please enter the full filename now including the .csv extension (this will make the search much faster) OR hit ENTER if you have not saved one before: "))
 			local_table=str(input("If you have saved a local table please enter the full filename now including the .csv extension (this will make the search much faster) OR hit ENTER if you have not saved one before: "))
 			if local_database=='' and local_table!='':
-				download_datasets_size(size=size,local_database=None,local_table=local_table,msg_flag=False,download_flag=False)
+				download_datasets_size(size=size,local_database=None,local_table=local_table,msg_flag=False,download_flag=True)
 			elif local_database=='' and local_table=='':
-				download_datasets_size(size=size,local_database=None,local_table=None,msg_flag=False,download_flag=False)
+				download_datasets_size(size=size,local_database=None,local_table=None,msg_flag=False,download_flag=True)
 			elif local_database!='' and local_table=='':
-				download_datasets_size(size=size,local_database=local_database,local_table=None,msg_flag=False,download_flag=False)
+				download_datasets_size(size=size,local_database=local_database,local_table=None,msg_flag=False,download_flag=True)
 			else:
 				print(f"OK, downloading all datasets of {size} size. This will take some time...")
-				download_datasets_size(size=size,local_database=local_database,local_table=local_table,msg_flag=False,download_flag=False)
+				download_datasets_size(size=size,local_database=local_database,local_table=local_table,msg_flag=False,download_flag=True)
 			
 			print("Finished downloading!")
 	
@@ -108,14 +108,14 @@ def execute_choice():
 			local_database=str(input("If you have saved a local database please enter the full filename now including the .csv extension (this will make the search much faster) OR hit ENTER if you have not saved one before: "))
 			local_table=str(input("If you have saved a local table please enter the full filename now including the .csv extension (this will make the search much faster) OR hit ENTER if you have not saved one before: "))
 			if local_database=='' and local_table!='':
-				download_datasets_task(task=task,local_database=None,local_table=local_table,msg_flag=False,download_flag=False)
+				download_datasets_task(task=task,local_database=None,local_table=local_table,msg_flag=False,download_flag=True)
 			elif local_database=='' and local_table=='':
-				download_datasets_task(task=task,local_database=None,local_table=None,msg_flag=False,download_flag=False)
+				download_datasets_task(task=task,local_database=None,local_table=None,msg_flag=False,download_flag=True)
 			elif local_database!='' and local_table=='':
-				download_datasets_task(task=task,local_database=local_database,local_table=None,msg_flag=False,download_flag=False)
+				download_datasets_task(task=task,local_database=local_database,local_table=None,msg_flag=False,download_flag=True)
 			else:
 				print(f"OK, downloading all datasets of {size} size. This will take some time...")
-				download_datasets_task(task=task,local_database=local_database,local_table=local_table,msg_flag=False,download_flag=False)
+				download_datasets_task(task=task,local_database=local_database,local_table=local_table,msg_flag=False,download_flag=True)
 			
 			print("Finished downloading!")
 	
