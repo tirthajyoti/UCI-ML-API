@@ -36,7 +36,11 @@ Only three widely used Python packages are required to run this code. For easy i
 * [Requests](http://docs.python-requests.org/en/master/)
 
 ### How to run it?<a name="howtorun"></a>
-Make sure you are connected to Internet:-) Then, just download/clone the Gitgub repo, make sure to have the supporting packages installed and run the following command at your terminal.
+Make sure you are connected to Internet:-) Then, just download/clone the Gitgub repo, make sure to have the supporting packages installed. 
+
+**`git clone https://github.com/tirthajyoti/UCI-ML-API.git {your_local_directory} `**
+
+Then go to the `your_local_directory` where you have cloned the Git and run the following command at your terminal.
 
 **`python Main.py`**
 
