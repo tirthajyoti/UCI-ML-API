@@ -23,7 +23,7 @@
 
 ![UCI ML Logo](https://archive.ics.uci.edu/ml/assets/logo.gif)
 
-### Navigating the portal can be challenging and time consuming<a name="Navigating"></a>
+### But navigating the portal can be challenging and time consuming...<a name="Navigating"></a>
 UCI ML portal is a wonderful gift to ML practioners. That said, navigating the portal can be bit frustrating and time consuming as there is no simple intuitive API or download link for the dataset you are interested in. You have to hop around multiple pages to go to the raw dataset page that you are looking for. Also, if you are interested in particular type of ML task (regression or classification for example) and want to download all datasets corresponding to that task, there is no simple command to accomplish such.
 
 ### Introducing UCIML Python code base<a name="UCIML"></a>
