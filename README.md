@@ -1,4 +1,6 @@
 
+[![GitHub forks](https://img.shields.io/github/forks/tirthajyoti/Data-Wrangling-with-Python.svg)](https://github.com/tirthajyoti/UCI-ML-API/network)
+
 <p align="center"><img src="https://raw.githubusercontent.com/tirthajyoti/tirthajyoti.github.io/master/Images/robo_with_ipad.jpg" alt="Header" width="500px"/></p>
 
 # A simple API for working with University of California, Irvine (UCI) Machine Learning (ML) repository
