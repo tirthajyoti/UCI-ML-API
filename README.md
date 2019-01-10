@@ -1,11 +1,12 @@
 
+# A simple API for working with University of California, Irvine (UCI) Machine Learning (ML) repository
+
 [![GitHub issues](https://img.shields.io/github/issues/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/issues)
 [![GitHub forks](https://img.shields.io/github/forks/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/network)
 [![GitHub stars](https://img.shields.io/github/stars/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tirthajyoti/UCI-ML-API/pulls)
-<p align="center"><img src="https://raw.githubusercontent.com/tirthajyoti/tirthajyoti.github.io/master/Images/robo_with_ipad.jpg" alt="Header" width="500px"/></p>
 
-# A simple API for working with University of California, Irvine (UCI) Machine Learning (ML) repository
+<p align="center"><img src="https://raw.githubusercontent.com/tirthajyoti/tirthajyoti.github.io/master/Images/robo_with_ipad.jpg" alt="Header" width="500px"/></p>
 
 ## Table of Contents
 1. [Introduction](#Introduction)
