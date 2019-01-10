@@ -5,6 +5,7 @@
 [![GitHub forks](https://img.shields.io/github/forks/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/network)
 [![GitHub stars](https://img.shields.io/github/stars/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/stargazers)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg)](https://github.com/tirthajyoti/UCI-ML-API/pulls)
+[![Github commits](https://img.shields.io/github/commit-activity/y/tirthajyoti/UCI-ML-API.svg?style=popout)](https://github.com/tirthajyoti/UCI-ML-API/stats/contributors)
 
 <p align="center"><img src="https://raw.githubusercontent.com/tirthajyoti/tirthajyoti.github.io/master/Images/robo_with_ipad.jpg" alt="Header" width="500px"/></p>
 
