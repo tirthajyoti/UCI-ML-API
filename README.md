@@ -1,6 +1,7 @@
 
 # A simple API for working with University of California, Irvine (UCI) Machine Learning (ML) repository
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![GitHub issues](https://img.shields.io/github/issues/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/issues)
 [![GitHub forks](https://img.shields.io/github/forks/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/network)
 [![GitHub stars](https://img.shields.io/github/stars/tirthajyoti/UCI-ML-API.svg)](https://github.com/tirthajyoti/UCI-ML-API/stargazers)
