@@ -4,7 +4,7 @@
 #==========================================
 # Function to read UCI ML datasets table
 #==========================================
-def read_dataset_table(url="https://archive.ics.uci.edu/ml/datasets.html",msg_flag=True):
+def read_dataset_table(url="https://archive.ics.uci.edu/ml/datasets.php",msg_flag=True):
     """
     Reads the table of datasets from the url: "https://archive.ics.uci.edu/ml/datasets.html" and process it further to clean and categorize
     """
