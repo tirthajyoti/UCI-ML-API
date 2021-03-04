@@ -206,7 +206,7 @@ def build_dataset_list(url="https://archive.ics.uci.edu/ml/datasets", msg_flag=T
 # Function to create dictionary of datasets' name, description, and identifier string
 # ======================================================================================
 def build_dataset_dictionary(
-    url="https://archive.ics.uci.edu/ml/datasets.html?format=&task=&att=&area=&numAtt=&numIns=&type=&sort=nameUp&view=list",
+    url="https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=&numIns=&type=&sort=nameUp&view=list",
     msg_flag=True,
 ):
     """
