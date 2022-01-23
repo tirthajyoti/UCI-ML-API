@@ -473,9 +473,9 @@ def download_file(url, directory):
     Downloads a file from a given url into the given directory.
     """
     import requests
-    import os
+    from pathlib import Path
 
-    local_filename = directory + "/" + url.split("/")[-1]
+    local_filename = Path(directory) /  Path(url.split("/")[-1])
     # NOTE the stream=True parameter
     r = requests.get(url, stream=True)
     try:
@@ -502,13 +502,14 @@ def download_dataset_url(url, directory, msg_flag=False, download_flag=True):
     from bs4 import BeautifulSoup
     import ssl
     import os
+    from pathlib import Path
 
     if url == "URL not available":
         return None
 
     cwd = os.getcwd()
     directory = directory.replace(":", "-")
-    local_directory = cwd + "\\" + str(directory)
+    local_directory = Path(cwd) / Path(str(directory))
     if not os.path.exists(local_directory):
         try:
             os.makedirs(local_directory)
