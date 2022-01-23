@@ -7,7 +7,7 @@ def read_dataset_table(
     url="https://archive.ics.uci.edu/ml/datasets.php", msg_flag=True
 ):
     """
-    Reads the table of datasets from the url: "https://archive.ics.uci.edu/ml/datasets.html" and process it further to clean and categorize
+    Reads the table of datasets from the url: "https://archive.ics.uci.edu/ml/datasets.php" and process it further to clean and categorize
     """
     import pandas as pd
 
@@ -206,7 +206,7 @@ def build_dataset_list(url="https://archive.ics.uci.edu/ml/datasets", msg_flag=T
 # Function to create dictionary of datasets' name, description, and identifier string
 # ======================================================================================
 def build_dataset_dictionary(
-    url="https://archive.ics.uci.edu/ml/datasets.html?format=&task=&att=&area=&numAtt=&numIns=&type=&sort=nameUp&view=list",
+    url="https://archive.ics.uci.edu/ml/datasets.php?format=&task=&att=&area=&numAtt=&numIns=&type=&sort=nameUp&view=list",
     msg_flag=True,
 ):
     """
@@ -352,7 +352,7 @@ def build_local_database(filename=None, msg_flag=True):
 def return_abstract(name, local_database=None, msg_flag=False):
     """
     Returns one-liner description (and webpage link for further information) of a particular dataset by searching the given name.
-    local_database: Name of the database (CSV file) stored locally i.e. in the same directory, which contains information about all the datasets on UCI ML repo. 
+    local_database: Name of the database (CSV file) stored locally i.e. in the same directory, which contains information about all the datasets on UCI ML repo.
     msg_flag: Controls verbosity
     """
 
@@ -601,7 +601,7 @@ def download_datasets(num=10, local_database=None, msg_flag=True, download_flag=
 def download_dataset_name(name, local_database=None, msg_flag=True, download_flag=True):
     """
     Downloads a particular dataset by searching the given name.
-    local_database: Name of the database (CSV file) stored locally i.e. in the same directory, which contains information about all the datasets on UCI ML repo. 
+    local_database: Name of the database (CSV file) stored locally i.e. in the same directory, which contains information about all the datasets on UCI ML repo.
     msg_flag: Controls verbosity
     download_flag: Default is True. If set to False, only creates the directories but does not initiate download (for testing purpose)
     """
@@ -683,7 +683,7 @@ def download_datasets_size(
     Downloads all datasets which satisfy the 'size' criteria.
     size: Size of the dataset which user wants to download. Could be any of the following: 'Small', 'Medium', 'Large','Extra Large'.
     local_database: Name of the database (CSV file) stored locally i.e. in the same directory, which contains name and URL information about all the datasets on UCI ML repo.
-    local_table: Name of the database (CSV file) stored locally i.e. in the same directory, which contains features information about all the datasets on UCI ML repo i.e. number of samples, type of machine learning task to be performed with the dataset. 
+    local_table: Name of the database (CSV file) stored locally i.e. in the same directory, which contains features information about all the datasets on UCI ML repo i.e. number of samples, type of machine learning task to be performed with the dataset.
     msg_flag: Controls verbosity
     download_flag: Default is True. If set to False, only creates the directories but does not initiate download (for testing purpose)
     """
@@ -736,15 +736,15 @@ def download_datasets_task(
 ):
     """
     Downloads all datasets which satisfy the size criteria.
-    task: Machine learning task for which user wants to download the datasets. Could be any of the following: 
-	    'Classification', 
-		'Recommender Systems', 
-		'Regression', 
-		'Other/Unknown', 
-		'Clustering', 
+    task: Machine learning task for which user wants to download the datasets. Could be any of the following:
+	    'Classification',
+		'Recommender Systems',
+		'Regression',
+		'Other/Unknown',
+		'Clustering',
 		'Causal Discovery'.
 	local_database: Name of the database (CSV file) stored locally i.e. in the same directory, which contains name and URL information about all the datasets on UCI ML repo.
-	local_table: Name of the database (CSV file) stored locally i.e. in the same directory, which contains features information about all the datasets on UCI ML repo i.e. number of samples, type of machine learning task to be performed with the dataset. 
+	local_table: Name of the database (CSV file) stored locally i.e. in the same directory, which contains features information about all the datasets on UCI ML repo i.e. number of samples, type of machine learning task to be performed with the dataset.
 	msg_flag: Controls verbosity
     download_flag: Default is True. If set to False, only creates the directories but does not initiate download (for testing purpose).
     """
