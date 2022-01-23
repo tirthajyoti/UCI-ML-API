@@ -21,14 +21,6 @@ def read_dataset_table(
         print("Could not read the table from UCI ML portal, Sorry!")
 
     df = datasets[5]  # Fifth entry of this table is the main datasets information
-    # Rows and columns of the dataframe
-    nrows = df.shape[0]
-    ncols = df.shape[1]
-
-    # Read the pertinent rows (skipping every alternate one) and columns
-    df = df.iloc[1:nrows:2][[2, 3, 4, 5, 6, 7, 8]]
-
-    # Assign column names
     df.columns = [
         "Name",
         "Data Types",
@@ -38,9 +30,8 @@ def read_dataset_table(
         "Number of Attributes",
         "Year",
     ]
-
-    # Set index from 1
-    df.index = [i for i in range(1, int(nrows / 2) + 1)]
+    # Remove first row which contains table header
+    df = df.iloc[1:, :]
 
     return df
 
